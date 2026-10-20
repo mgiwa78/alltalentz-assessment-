@@ -1,0 +1,24 @@
+export enum UserRole {
+  ADMIN = "ADMIN",
+  ESTIMATOR = "ESTIMATOR",
+  PROJECT_MANAGER = "PROJECT_MANAGER",
+}
+
+export enum DamageType {
+  WATER = "WATER",
+  FIRE = "FIRE",
+  MOLD = "MOLD",
+  STORM = "STORM",
+  OTHER = "OTHER",
+}
+
+export enum JobStatus {
+  NEW = "NEW",
+  INSPECTION = "INSPECTION",
+  ESTIMATING = "ESTIMATING",
+  PROPOSAL_SENT = "PROPOSAL_SENT",
+  APPROVED = "APPROVED",
+  IN_PROGRESS = "IN_PROGRESS",
+  COMPLETED = "COMPLETED",
+  CANCELLED = "CANCELLED",
+}
